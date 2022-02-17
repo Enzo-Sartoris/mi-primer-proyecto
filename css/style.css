@@ -1,0 +1,191 @@
+
+
+
+.titulo {
+    color: #ff5600;
+    text-align: center;
+    
+}
+
+.navMenu {
+    text-align: right;
+    font-size: 20px;
+    color:#ff5600;
+    background-color:#bbdbf8;
+    padding:10px;
+    display: flex;
+    justify-content: space-around;
+    
+    
+    
+    }
+
+
+    
+
+    .logo{
+        border-radius: 15px 15px;
+    }
+
+a{
+    text-decoration: none;
+}
+
+.subtitulo{
+    font-size: 50px;
+    margin: 50px 50px 50px 50px;
+    text-align: center;
+    padding: 10px;
+    justify-content:end
+        }
+    
+    
+
+.subtituloNosotros{
+    font-size: 60px;
+    margin: 50px 50px 50px 50px;
+    text-align: center;
+    padding: 10px;
+    color: azure;
+    
+}
+
+
+.texto {
+    text-align: center;
+    font-size:30px;
+    padding: 10;
+    margin: 20px 20px 60px 20px;
+    color: azure;
+    
+    
+}
+.fondoImg{
+    background-image: url('../imagenes/nosotros-img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+    border-radius: 15px 15px;
+    transform:scale(0.9);
+    
+    
+
+}
+
+.textoContacto{
+    text-align: center;
+    font-size:30px;
+    padding: 10;
+    margin: 20px 20px 60px 20px;
+    background-color: #bbdbf8;
+    border-radius: 20px;
+
+
+
+    
+}
+
+
+.formulario{
+    font-size:30px;
+    padding: 40px 40px;
+    margin: 40px 900px 60px 20px;
+    background-color: #bbdbf8;
+    border-radius: 20px;
+    width: 50%;
+    border-top: #ff5600 10px solid;
+    border-bottom: #ff5600 10px solid;
+    border-left: #ff5600 10px solid;
+    border-right: #ff5600 10px solid;
+    
+    
+}
+
+
+
+
+
+
+
+
+ul{
+    list-style: none;
+    margin-top: 35px;
+} 
+
+li{
+    display: inline-block;
+    padding-inline-end: 100px;
+    
+}
+
+.informacion {
+    padding: auto;
+    margin:0px 20px 20px 20px;
+    font-size:20px;
+}
+
+.contenedorImg {
+    display:grid;
+    grid-template-columns: auto auto;
+    
+    padding: 60px;
+    background-color: #ff5600;
+    border-radius: 20px 30px;
+    
+}
+
+.menuDiario{
+    border-radius: 40px 40px;
+    
+}
+
+.demostracion{
+    padding: auto;
+    margin:0px 20px 20px 20px;
+    font-size: 20px;
+}
+
+.ejemplo {
+    background-color:#ff5600 ;
+    padding: 30px;
+    margin:0px 100px 0px 100px;
+    border-radius:20px 40px;
+    
+}
+
+.video{
+    margin:10px 10px 10px 320px;
+}
+
+.contenedorFooter{
+
+    display:flex;
+    justify-content:space-evenly;
+    background-color: #bbdbf8;
+    text-align: left;
+    
+}
+
+.mapsCenter {
+    margin: 20px 20px 20px -200px;
+    width: 400px;
+    height: 100px;
+}
+
+body{
+    font-family: 'Short Stack', cursive;
+}
+
+button{
+    background-color: #ff5600;
+    width: 540px;
+    height: 50px;
+    
+}
+
+button:hover{
+    cursor:pointer;
+    
+}
+
