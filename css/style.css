@@ -1,5 +1,7 @@
 
-
+body{
+    margin: 0;
+} 
 
 .titulo {
     color: #ff5600;
@@ -25,6 +27,7 @@
 
     .logo{
         border-radius: 15px 15px;
+        width: 200px;
     }
 
 a{
@@ -115,7 +118,7 @@ ul{
 
 li{
     display: inline-block;
-    padding-inline-end: 100px;
+    padding-inline-end:80px;
     
 }
 
@@ -189,3 +192,93 @@ button:hover{
     
 }
 
+.tituloTabla {
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+
+}
+.tituloTabla2 {
+    display: none;
+}
+.containerTabla{
+    grid:display  ;
+    
+}
+.containerTabla2 {
+    display: none;
+}
+
+.bodyTabla {
+    text-align: center;
+
+}
+
+    @media screen and (min-width:780px) and (max-width: 1359px){
+        
+    }
+    @media screen and (min-width :480px) and (max-width: 780px){
+        .titulo {
+            height: 20px;
+            font-size:1em ;
+            text-align: center;
+            
+        }
+        .navMenu {
+            font-size: 10px;
+            text-align:start;
+            width: 100%; }
+            
+            .navMenu li{
+                padding-inline-end:10px; }
+
+            .logo{
+                width:100px ;
+            }    
+                
+        
+            .menuDiario{
+                width: 3000px;
+                max-width: 90%;
+                
+            }    
+                
+            .video{
+                max-width: 100%;
+                padding: auto;
+                margin:auto;
+            }    
+            
+            
+        .contenedorFooter {
+            text-align:center;
+            display: block;
+            
+            }
+            
+        .mapsCenter{
+            max-width: 100%;
+            height: 60px;
+            margin:0px 0px 40px 0px;
+            }
+            
+
+        .contenedorFooter li{
+            padding-inline-end:10px; 
+            margin: 20px 0px 0px 0px;
+            padding: 60px 0px 0px 0px;
+        }
+        
+
+        
+            
+            
+        }
+
+
+
+
+    @media screen and (min-width :480px) { 
+
+    }
