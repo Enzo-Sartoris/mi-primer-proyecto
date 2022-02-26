@@ -136,7 +136,7 @@ li{
 
 .contenedorImg {
     display: flex;
-    justify-content:;
+    justify-content:center;
     margin: 10px 10px 10px 10px;
     padding: 60px;
     background-color: #ff5600;
@@ -149,7 +149,7 @@ li{
     cursor: pointer;
     transition: transform 0.5;
     border-radius: 40px 40px;
-    
+    margin-right: 30px;
     
 }
 
@@ -157,7 +157,7 @@ li{
     cursor: pointer;
     transition: transform 0.5;
     border-radius: 40px 40px;
-    
+    margin-left: 30px;
     
 }
 
@@ -337,17 +337,22 @@ button:hover{
                 width:100px ;
             }    
                 
-        
+            
+            .contenedorImg{
+                flex-wrap: wrap;
+                align-items: center;
+            }
             .menuDiario{
-                
-                width: 90%;
+                height: 250px;
+                width: 340px;  
+                margin: 20px auto;
                 
             }    
 
             .menuDiario2{
-                
-                width: 90%;
-                
+                height: 250px;
+                margin: 10px auto;
+                width: 340px;   
             }
             
             .menuDiario2:hover{
@@ -408,7 +413,23 @@ button:hover{
             .logo{
                 width:100px ;
             }    
+            
+            .contenedorImg{
+                flex-wrap: wrap;
+                align-items: center;
+            }
+            .menuDiario{
+                height: 125px;
+                width: 160px;  
+                margin: 20px auto;
                 
+            }    
+
+            .menuDiario2{
+                height: 125px;
+                margin: 10px auto;
+                width: 160px;   
+            }
         
     
                 
@@ -472,7 +493,5 @@ button:hover{
         }
 
 
-        .contenedorImg{
-            display: none;
-        }
+        
     }
