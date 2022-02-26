@@ -1,6 +1,7 @@
 
 body{
     margin: 0;
+    
 } 
 
 .titulo {
@@ -17,17 +18,20 @@ body{
     padding:10px;
     display: flex;
     justify-content: space-around;
-    
-    
-    
+
     }
+    
+    
+    
+    
+    
 
 
     
 
     .logo{
         border-radius: 15px 15px;
-        width: 200px;
+        
     }
 
 a{
@@ -54,6 +58,8 @@ a{
 }
 
 
+
+
 .texto {
     text-align: center;
     font-size:30px;
@@ -67,7 +73,7 @@ a{
     background-image: url('../imagenes/nosotros-img.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center ;
+    
     border-radius: 15px 15px;
     transform:scale(0.9);
     
@@ -129,17 +135,40 @@ li{
 }
 
 .contenedorImg {
-    display:grid;
-    grid-template-columns: auto auto;
-    
+    display: flex;
+    justify-content:;
+    margin: 10px 10px 10px 10px;
     padding: 60px;
     background-color: #ff5600;
     border-radius: 20px 30px;
     
 }
 
+
 .menuDiario{
+    cursor: pointer;
+    transition: transform 0.5;
     border-radius: 40px 40px;
+    
+    
+}
+
+.menuDiario2{
+    cursor: pointer;
+    transition: transform 0.5;
+    border-radius: 40px 40px;
+    
+    
+}
+
+.menuDiario:hover{
+    transform: scale(1.2);
+    
+    
+}
+
+.menuDiario2:hover{
+    transform: scale(1.2);
     
 }
 
@@ -150,6 +179,9 @@ li{
 }
 
 .ejemplo {
+
+    display: flex;
+    justify-content: center;
     background-color:#ff5600 ;
     padding: 30px;
     margin:0px 100px 0px 100px;
@@ -158,7 +190,10 @@ li{
 }
 
 .video{
-    margin:10px 10px 10px 320px;
+    margin:10px 10px 10px 10px;
+    width:1040px;
+    height: 380px;
+    
 }
 
 .contenedorFooter{
@@ -178,6 +213,7 @@ li{
 
 body{
     font-family: 'Short Stack', cursive;
+    
 }
 
 button{
@@ -215,8 +251,72 @@ button:hover{
 
 }
 
-    @media screen and (min-width:780px) and (max-width: 1359px){
+    @media screen and (min-width:781px) and (max-width: 1359px){
+        .titulo {
+            height: 20px;
+            font-size:2em ;
+            text-align: center;
+            
+        }
+        .navMenu {
+            font-size: 20px;
+            text-align:start;
+            width: 100%; }
+            
+            .navMenu li{
+                padding-inline-end:10px; }
+
+            .logo{
+                width:100px ;
+            }    
+                
         
+            .menuDiario{
+                
+                width: 90%;
+                
+            }    
+
+            .menuDiario2{
+                
+                
+                
+                width: 90%;
+            }
+            
+            .menuDiario2:hover{
+                transform: scale(1.2);
+                
+            }
+                
+            .video{
+                max-width: 100%;
+                padding: auto;
+                margin:auto;
+                display: grid;
+            }    
+            
+            
+        .contenedorFooter {
+            text-align:center;
+            display: block;
+            
+            
+            }
+            
+        .mapsCenter{
+            max-width: 100%;
+            height: 60px;
+            margin:0px 0px 40px 0px;
+            }
+            
+
+        .contenedorFooter li{
+            padding-inline-end:10px; 
+            margin: 20px 0px 0px 0px;
+            padding: 60px 0px 0px 0px;
+            font-size: 20px;
+        }
     }
     @media screen and (min-width :480px) and (max-width: 780px){
         .titulo {
@@ -239,10 +339,21 @@ button:hover{
                 
         
             .menuDiario{
-                width: 3000px;
-                max-width: 90%;
+                
+                width: 90%;
                 
             }    
+
+            .menuDiario2{
+                
+                width: 90%;
+                
+            }
+            
+            .menuDiario2:hover{
+                transform: scale(1.2);
+                
+            }
                 
             .video{
                 max-width: 100%;
@@ -279,6 +390,89 @@ button:hover{
 
 
 
-    @media screen and (min-width :480px) { 
+    @media screen and (max-width :480px) { 
+        .titulo {
+            height: 40px;
+            font-size:1em ;
+            text-align: center;
+            
+        }
+        .navMenu {
+            font-size: 10px;
+            text-align:start;
+            width: 100%; }
+            
+            .navMenu li{
+                padding-inline-end:10px; }
 
+            .logo{
+                width:100px ;
+            }    
+                
+        
+    
+                
+            
+            .ejemplo{
+                height: 200px;
+                width: 150px;
+                display: flex;
+                margin: auto;
+            }
+                
+            .video{
+                max-width: 100%;
+                max-height: 60%;
+                padding: auto;
+                margin:auto;
+                
+                
+                
+            }    
+            
+            
+        .contenedorFooter {
+            text-align:center;
+            display: block;
+            max-width: 100%;
+            
+            
+            }
+            
+        .mapsCenter{
+            max-width: 100%;
+            height: 60px;
+            margin:0px 0px 40px 0px;
+            }
+            
+
+        .contenedorFooter li{
+            padding-inline-end:10px; 
+            margin: 20px 0px 0px 0px;
+            padding: 60px 0px 0px 0px;
+            font-size: 10px;
+        }
+
+
+        .fondoImg {
+            display: flex;
+            display: block;
+            
+
+        }
+
+        .subtituloNosotros{
+            font-size: 15px;
+            margin-left: 0%;
+        }
+
+
+        .texto{
+            font-size: 8px;
+        }
+
+
+        .contenedorImg{
+            display: none;
+        }
     }
