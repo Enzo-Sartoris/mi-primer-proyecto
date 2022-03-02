@@ -13,47 +13,61 @@
     <title>El Angel del Sabor</title>
 </head>
 
-<body>
-
-    <header class="titulo">
-
-
-        <h1>
-            Contactanos
-        </h1>
-
+<body class="container">
+    
     </header>
     
 
-    <nav class="navMenu ">
+    
+    <nav class="navbar navbar-expand-md navbar-dark d-flex fixed-top " style="background-color: rgba(0, 0, 0, 0.425);">
+        <div class="container-md ">
 
-        <div><img src="imagenes/logo-angel-sabor.jpeg" width="100" alt="logo" class="logo"></div>
+            <div class="d-inline-flex ">
+            <img src="imagenes/logo-angel-sabor.jpeg "  alt="" class="logo rounded-circle d-flex " >
+            <span class="navbar-brand  ">
+                <a href="index.html">El Angel del Sabor</a>
+                
+            </span>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end  "  id="navbarNav">
+            <ul class="navbar-nav " >
+                
+                <li class="nav-item ">
+                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                </li>
+                
 
-        <ul>
-            <li>
-                <a href="index.html">Inicio</a>
-            </li>
+                
+                <li class="nav-item ">
+                <a class="nav-link active" aria-current="page" href="menuDiarios.html">Menu Diario</a>
+                </li>
+                
+                
+                
+                <li class="nav-item pl-1 ">
+                <a class="nav-link active" aria-current="page" href="carta.html">Carta</a>
+                </li>
+                
+                
+                
+                
+                <li class="nav-item pl-1">
+                <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
+                </li>
+                
 
-            <li>
-                <a href="menuDiarios.html">Menu Diarios</a>
-
-            </li>
-
-            <li>
-                <a href="carta.html">Carta</a>
-            </li>
-
-            <li>
-                <a href="contacto.html">Contacto</a>
-            </li>
-
-            <li>
-                <a href="nosotros.html">Nosotros</a>
-            </li>
-
-        </ul>
-
-    </nav>
+                
+                <li class="nav-item pl-1 ">
+                    <a class="nav-link active" aria-current="page" href="nosotros.html">Nosotros</a>
+                </li>
+                
+            </ul>
+            </div>
+        </div>
+        </nav>
 
     <main>
 
@@ -69,69 +83,53 @@
             sequi fugiat velit iste.
         </p>
 
-
-        <form action="" class="formulario">
-
-            <label for="nombre">Nombre</label>
-            <input type="text" name="nombre">
-            <br>
-            <br>
-            <label for="email">Email</label>
-            <input type="email"name="email" >
-            <br>
-            <br>
-            <label for="consulta" >Consulta</label >
-            <br>
-            <br>
-            <textarea name="consulta" id="" cols="70" rows="20"></textarea>
-            <br>
-            <br>
-            <button type="submit">Enviar</button>
-            
-
-        </form>
-
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
+            </div>
+            <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Consulta</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+        </div>
 
     </section>
 
     </main>
 
-    <br>
-    <br>
-
+    <footer class="bg-dark text-light lista" >
     
-    <footer class="contenedorFooter">
-        <ul>
-            <li>
-                <a href="https://www.instagram.com/el_angel_del_sabor/">instagram</a>
+        <ul class="container text-center list-group text-light  ">
+            <li class="list-group-item lista border-0">
+                <a href="https://www.instagram.com/el_angel_del_sabor/ ">instagram</a>
             </li>
 
 
-            <li>
+            <li class="list-group-item lista border-0">
                 contacto : 2612654681
             </li>
 
-            <li>
+            <li class="list-group-item lista border-0">
                 ubicacion :
             </li>
 
-            <br>
-            <br>
-            <br>
-            
-            <br>
-
+            <li class="list-group-item lista border-0 container text-center">
+                <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3348.609305289174!2d-68.83544318488431!3d-32.93491918092458!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e0be814aa5c4f%3A0xb72fa67fb18bae21!2sPolvaredas%20730%2C%20Godoy%20Cruz%2C%20Mendoza!5e0!3m2!1ses!2sar!4v1642783153814!5m2!1ses!2sar"
+        width="100%"  style="border:0;" allowfullscreen="" loading="lazy">
+        </iframe>
+            </li>
         </ul>
 
-        <iframe class="mapsCenter"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3348.609305289174!2d-68.83544318488431!3d-32.93491918092458!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e0be814aa5c4f%3A0xb72fa67fb18bae21!2sPolvaredas%20730%2C%20Godoy%20Cruz%2C%20Mendoza!5e0!3m2!1ses!2sar!4v1642783153814!5m2!1ses!2sar"
-                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy">
-        </iframe>
-
+        
+        
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    
+    
+
 </body>
 
 </html>
