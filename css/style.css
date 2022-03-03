@@ -4,7 +4,17 @@ body{
     margin: 0;
     background: rgb(228,186,154);
     background: radial-gradient(circle, rgba(228,186,154,1) 23%, rgba(246,113,11,1) 42%, rgba(252,144,0,1) 67%, rgba(240,80,0,1) 84%);
+    
 } 
+
+p::selection {
+    background-color: brown;
+    color: #fff;
+}
+
+p::first-letter{
+    font-size: 30px;
+}
 
 .titulo {
     color: black;
@@ -19,9 +29,22 @@ body{
     
 }
 
-.navbar-nav li:hover{
-    background-color: brown;
 
+.navbar-nav li{
+    transition: background-color 2s;
+    
+    transition-duration: 1s;
+}
+
+
+.navbar-nav li:hover{
+    background-color: rgba(219, 153, 29, 0.993);
+    transform: scale(1.2,1.5);
+}
+
+
+.navbar-nav li:active{
+background-color: rgb(241, 99, 4);
 }
 
 
@@ -42,6 +65,22 @@ body{
 .menuDiario{
 margin-right: 40px;
 margin: 40px;
+transition: all 1s;
+}
+
+.menuDiario2{
+    transition: 1s;
+}
+
+
+
+.menuDiario:hover{
+transform: scale(1.1);
+
+}
+.menuDiario2:hover{
+    transform: scale(1.1);
+    
 }
 
 .tituloTabla{
