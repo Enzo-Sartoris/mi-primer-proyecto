@@ -127,6 +127,21 @@ margin-bottom: 100px;
 }
 
 
+.input{
+    display: inline-block;
+    border: 0px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1.2em;
+    
+
+}
+
+.input:hover{
+    background-color: rgb(243, 85, 45);
+}
+
+
 .bg-dark ul li a{
     text-decoration: none;
     color: #fff;
