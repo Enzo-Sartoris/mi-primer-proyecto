@@ -1,0 +1,66 @@
+
+body{
+    
+    margin: 0;
+    background-color: $color-body;
+    color: #fff;
+    
+                p::selection {
+                    background-color: brown;
+                    color: #fff;
+                }
+
+
+                p::first-letter{
+                    font-size: 30px;
+                }
+
+                
+                .informacion{
+                    margin-top: 100px;
+                }
+                
+                .menuDiario{
+                    padding: 20px;
+                    height: 356px;
+                    transition: .5s ease-out;
+                }
+                
+                .menuDiario2{
+                    padding: 20px;
+                    height: 356px;
+                    transition: .5s ease-out;
+                }
+                
+                .menuDiario:hover{
+                    transform: scale(1.08);
+                    cursor:pointer;
+                    }
+                    .menuDiario2:hover{
+                        transform: scale(1.08);
+                        
+                        cursor:pointer;
+                    }
+                    
+                .video{
+                    width:70%;
+                    margin-left:160px;
+                    padding:20px;
+                }
+
+                    
+                    .bg-dark{
+                        margin-top: 80px;
+                    }
+                    
+                    .list-group-item{
+                        
+                    background-color: $color-footer;
+                    a{
+                        text-decoration: none;
+                        color: #fff;
+                    }
+                    color: #fff;
+                }
+                
+}

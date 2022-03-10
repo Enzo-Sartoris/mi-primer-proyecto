@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  background-color: #0a0a0a;
+  color: #fff;
+}
+body p::selection {
+  background-color: brown;
+  color: #fff;
+}
+body p::first-letter {
+  font-size: 30px;
+}
+body .informacion {
+  margin-top: 100px;
+}
+body .menuDiario {
+  padding: 20px;
+  height: 356px;
+  transition: 0.5s ease-out;
+}
+body .menuDiario2 {
+  padding: 20px;
+  height: 356px;
+  transition: 0.5s ease-out;
+}
+body .menuDiario:hover {
+  transform: scale(1.08);
+  cursor: pointer;
+}
+body .menuDiario2:hover {
+  transform: scale(1.08);
+  cursor: pointer;
+}
+body .video {
+  width: 70%;
+  margin-left: 160px;
+  padding: 20px;
+}
+body .bg-dark {
+  margin-top: 80px;
+}
+body .list-group-item {
+  background-color: rgba(32, 31, 31, 0.432);
+  color: #fff;
+}
+body .list-group-item a {
+  text-decoration: none;
+  color: #fff;
+}
+
+header {
+  margin-top: 100px;
+}
+header nav a:hover {
+  color: #f16304;
+}
+header nav div span {
+  margin-left: 50px;
+  margin-top: 8px;
+}
+header nav div span a {
+  text-decoration: none;
+  color: #fff;
+}
+header nav div .logo {
+  width: 40px;
+  height: 40px;
+  margin-top: 5px;
+}
+header nav ul li {
+  transition: background-color 2s;
+  transition-duration: 1s;
+}
+header nav ul li:hover {
+  background-color: #f16304;
+  transform: scale(1.2, 1.5);
+}
+header nav ul li:active {
+  background-color: rgba(219, 153, 29, 0.993);
+}
+
+/*# sourceMappingURL=prueba.css.map */
