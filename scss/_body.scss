@@ -1,66 +1,70 @@
-
-body{
-    
+body {
     margin: 0;
     background-color: $color-body;
     color: #fff;
+
+    p::selection {
+        background-color: brown;
+        color: #fff;
+    }
+
+    p::first-letter {
+        font-size: 30px;
+    }
+
+    .informacion {
+        margin-top: 100px;
+    }
     
-                p::selection {
-                    background-color: brown;
-                    color: #fff;
-                }
+    .tituloEncabezado{
+        text-align: center ;
+        margin-bottom: 30px;
+        
+    }
+    .menuDiario {
+        padding: 20px;
+        height: 356px;
+        transition: 0.5s ease-out;
+    }
+
+    .menuDiario2 {
+        @extend .menuDiario;
+    }
+
+    .menuDiario:hover {
+        transform: scale(1.08);
+        cursor: pointer;
+    }
+
+    .video {
+        width: 70%;
+        margin-left: 160px;
+        padding: 20px;
+    }
 
 
-                p::first-letter{
-                    font-size: 30px;
-                }
+    .bg-dark {
+        margin-top: 80px;
+    }
 
-                
-                .informacion{
-                    margin-top: 100px;
-                }
-                
-                .menuDiario{
-                    padding: 20px;
-                    height: 356px;
-                    transition: .5s ease-out;
-                }
-                
-                .menuDiario2{
-                    padding: 20px;
-                    height: 356px;
-                    transition: .5s ease-out;
-                }
-                
-                .menuDiario:hover{
-                    transform: scale(1.08);
-                    cursor:pointer;
-                    }
-                    .menuDiario2:hover{
-                        transform: scale(1.08);
-                        
-                        cursor:pointer;
-                    }
-                    
-                .video{
-                    width:70%;
-                    margin-left:160px;
-                    padding:20px;
-                }
+    .footerMaps {
+        $mapsFooter: (
+            instagram: red,
+            contacto: blue,
+            ubicacion: yellow,
+        );
 
-                    
-                    .bg-dark{
-                        margin-top: 80px;
-                    }
-                    
-                    .list-group-item{
-                        
-                    background-color: $color-footer;
-                    a{
-                        text-decoration: none;
-                        color: #fff;
-                    }
-                    color: #fff;
-                }
-                
+        @each $i, $color in $mapsFooter {
+            .#{$i} {
+                color: $color;
+            }
+        }
+    }
+    
+    @mixin listaFooter {text-decoration: none; color:#fff; background-color: $color-footer;
+        
+    }
+    .list-group-item {
+    @include listaFooter;
+    }
 }
