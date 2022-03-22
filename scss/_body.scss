@@ -13,12 +13,12 @@ body {
     }
 
     .informacion {
-        margin-top: 100px;
+        margin-top: 50px;
     }
     
     .tituloEncabezado{
         text-align: center ;
-        margin-bottom: 30px;
+        
         
     }
     .menuDiario {
@@ -37,22 +37,32 @@ body {
     }
 
     .video {
-        width: 70%;
-        margin-left: 160px;
+        width: 75%;
+        margin-top: 20px;
+        margin-left: 60px;
         padding: 20px;
     }
 
 
     .bg-dark {
-        margin-top: 80px;
+        margin-top: 40px;
+        
+        
     }
 
     .footerMaps {
+        display: flex;
+        justify-content: space-evenly;
+        list-style-type:none;
         $mapsFooter: (
-            instagram: red,
-            contacto: blue,
-            ubicacion: yellow,
-        );
+            instagram:rgba(242, 236, 247, 0.918),
+            contacto:rgba(242, 236, 247, 0.918),
+            ubicacion:rgba(242, 236, 247, 0.918) ,
+        ) ;
+
+
+
+        
 
         @each $i, $color in $mapsFooter {
             .#{$i} {
@@ -66,5 +76,10 @@ body {
     }
     .list-group-item {
     @include listaFooter;
+    }
+
+
+    @media (min-width :400px)  {
+        display: block;
     }
 }

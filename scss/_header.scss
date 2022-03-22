@@ -1,44 +1,42 @@
-header{
+header {
     margin-top: 100px;
-    nav{
-
-        a{
-            &:hover{
-            color: rgb(241, 99, 4);}
+    nav {
+        a {
+            &:hover {
+                color: rgb(241, 99, 4);
+            }
         }
-        div{
-            span{
-            margin-left: 50px;
-            margin-top: 8px;
-                a{
-            text-decoration: none;
-            color: #fff;
+        div {
+            span {
+                margin-left: 50px;
+                margin-top: 8px;
+                a {
+                    text-decoration: none;
+                    color: #fff;
                 }
             }
-            
-        .logo{
-            width: 40px;
-            height: 40px;
-            margin-top: 5px;
-        }
-            
-        }
 
+            .logo {
+                width: 40px;
+                height: 40px;
+                margin-top: 5px;
+            }
+        }
+    
 
-        ul{
-            li{
-                transition: background-color 2s;
-                transition-duration: 1s;
-            &:hover{
-                    background-color:rgb(241, 99, 4); 
-                    transform: scale(1.2,1.5);
+    
+        ul {
+            li {
+                a {
+                    &:hover {
+                        color: rgb(44, 255, 227) !important;
+                        transform: scale(1.2, 1.5);
+                    }
+                    &:active {
+                        color: rgba(18, 111, 233, 0.918) !important;
+                    }
                 }
-            &:active{
-                    background-color:rgba(219, 153, 29, 0.993) ;
             }
-            }
-            
         }
     }
 }
-
