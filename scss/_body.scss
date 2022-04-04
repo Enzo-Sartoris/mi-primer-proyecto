@@ -1,7 +1,12 @@
 body {
     margin: 0;
+    padding: 0;
     background-color: $color-body;
     color: #fff;
+    text-align: justify;
+    position: relative;
+    padding-bottom: 300px;
+    min-height: 100vh;
 
     p::selection {
         background-color: brown;
@@ -21,6 +26,30 @@ body {
         
         
     }
+
+    .float{
+        position:fixed;
+        width:60px;
+        height:60px;
+        bottom:40px;
+        right:40px;
+        background-color:#25d366;
+        color:#FFF;
+        border-radius:50px;
+        text-align:center;
+        font-size:30px;
+        box-shadow: 2px 2px 3px #999;
+        z-index:100;
+    }
+    .float:hover {
+        text-decoration: none;
+        color: #25d366;
+        background-color:#fff;
+    }
+    
+    .my-float{
+        margin-top:16px;
+    }
     .menuDiario {
         padding: 20px;
         height: 356px;
@@ -35,19 +64,41 @@ body {
         transform: scale(1.08);
         cursor: pointer;
     }
+    
+    .tituloEncabezado{
+        margin-bottom: 50px;
+    }
 
+    .subtitulo{
+        margin-top: 50px;
+    }
+
+    .textoContacto{
+        margin-bottom: 50px;
+    }
+
+    .subtituloNosotros{
+        margin-top: 80px;
+    }
+
+    .ejemplo{
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+        
+    }
     .video {
         width: 75%;
-        margin-top: 20px;
-        margin-left: 60px;
-        padding: 20px;
+        margin: 0 auto;
+        padding: 20px 0px;
     }
+    
 
 
     .bg-dark {
-        margin-top: 40px;
         
-        
+        position: absolute;
+        bottom: 0px;
     }
 
     .footerMaps {
@@ -60,7 +111,10 @@ body {
             ubicacion:rgba(242, 236, 247, 0.918) ,
         ) ;
 
-
+        .lista-insta a{
+            text-decoration: none;
+            color: rgba(242, 236, 247, 0.918);
+        }
 
         
 

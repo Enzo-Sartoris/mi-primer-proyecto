@@ -1,12 +1,7 @@
 body {
   margin: 0;
-  padding: 0;
   background-color: #0a0a0a;
   color: #fff;
-  text-align: justify;
-  position: relative;
-  padding-bottom: 300px;
-  min-height: 100vh;
 }
 body p::selection {
   background-color: brown;
@@ -21,28 +16,6 @@ body .informacion {
 body .tituloEncabezado {
   text-align: center;
 }
-body .float {
-  position: fixed;
-  width: 60px;
-  height: 60px;
-  bottom: 40px;
-  right: 40px;
-  background-color: #25d366;
-  color: #FFF;
-  border-radius: 50px;
-  text-align: center;
-  font-size: 30px;
-  box-shadow: 2px 2px 3px #999;
-  z-index: 100;
-}
-body .float:hover {
-  text-decoration: none;
-  color: #25d366;
-  background-color: #fff;
-}
-body .my-float {
-  margin-top: 16px;
-}
 body .menuDiario, body .menuDiario2 {
   padding: 20px;
   height: 356px;
@@ -52,40 +25,19 @@ body .menuDiario:hover, body .menuDiario2:hover {
   transform: scale(1.08);
   cursor: pointer;
 }
-body .tituloEncabezado {
-  margin-bottom: 50px;
-}
-body .subtitulo {
-  margin-top: 50px;
-}
-body .textoContacto {
-  margin-bottom: 50px;
-}
-body .subtituloNosotros {
-  margin-top: 80px;
-}
-body .ejemplo {
-  margin-top: 100px;
-  display: flex;
-  justify-content: center;
-}
 body .video {
   width: 75%;
-  margin: 0 auto;
-  padding: 20px 0px;
+  margin-top: 20px;
+  margin-left: 60px;
+  padding: 20px;
 }
 body .bg-dark {
-  position: absolute;
-  bottom: 0px;
+  margin-top: 40px;
 }
 body .footerMaps {
   display: flex;
   justify-content: space-evenly;
   list-style-type: none;
-}
-body .footerMaps .lista-insta a {
-  text-decoration: none;
-  color: rgba(242, 236, 247, 0.918);
 }
 body .footerMaps .instagram {
   color: rgba(242, 236, 247, 0.918);
@@ -134,4 +86,4 @@ header nav ul li a:active {
   color: rgba(18, 111, 233, 0.918) !important;
 }
 
-/*# sourceMappingURL=prueba.css.map */
+/*# sourceMappingURL=prueba.style.map */
