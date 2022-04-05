@@ -5,6 +5,7 @@ body {
     color: #fff;
     text-align: justify;
     position: relative;
+    font-size: 20px;
     padding-bottom: 300px;
     min-height: 100vh;
 
@@ -23,7 +24,7 @@ body {
     
     .tituloEncabezado{
         text-align: center ;
-        
+        padding-bottom: 20px;
         
     }
 
@@ -37,7 +38,6 @@ body {
         color:#FFF;
         border-radius:50px;
         text-align:center;
-        font-size:30px;
         box-shadow: 2px 2px 3px #999;
         z-index:100;
     }
@@ -65,8 +65,18 @@ body {
         cursor: pointer;
     }
     
+    .table{
+        font-size: 20px;
+    }
+    
+    .carousel-item{
+        max-height: 600px;
+        background-size: 100% 100%;
+        }
+    
+    
     .tituloEncabezado{
-        margin-bottom: 50px;
+        margin-bottom: 40px;
     }
 
     .subtitulo{
@@ -78,7 +88,7 @@ body {
     }
 
     .subtituloNosotros{
-        margin-top: 80px;
+        margin-top: 40px;
     }
 
     .ejemplo{

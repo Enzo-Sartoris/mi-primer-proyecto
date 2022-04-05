@@ -5,6 +5,7 @@ body {
   color: #fff;
   text-align: justify;
   position: relative;
+  font-size: 20px;
   padding-bottom: 300px;
   min-height: 100vh;
 }
@@ -20,6 +21,7 @@ body .informacion {
 }
 body .tituloEncabezado {
   text-align: center;
+  padding-bottom: 20px;
 }
 body .float {
   position: fixed;
@@ -31,7 +33,6 @@ body .float {
   color: #FFF;
   border-radius: 50px;
   text-align: center;
-  font-size: 30px;
   box-shadow: 2px 2px 3px #999;
   z-index: 100;
 }
@@ -52,8 +53,15 @@ body .menuDiario:hover, body .menuDiario2:hover {
   transform: scale(1.08);
   cursor: pointer;
 }
+body .table {
+  font-size: 20px;
+}
+body .carousel-item {
+  max-height: 600px;
+  background-size: 100% 100%;
+}
 body .tituloEncabezado {
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 body .subtitulo {
   margin-top: 50px;
@@ -62,7 +70,7 @@ body .textoContacto {
   margin-bottom: 50px;
 }
 body .subtituloNosotros {
-  margin-top: 80px;
+  margin-top: 40px;
 }
 body .ejemplo {
   margin-top: 100px;
@@ -127,8 +135,7 @@ header nav div .logo {
   margin-top: 5px;
 }
 header nav ul li a:hover {
-  color: #2cffe3 !important;
-  transform: scale(1.2, 1.5);
+  color: #f16304 !important;
 }
 header nav ul li a:active {
   color: rgba(18, 111, 233, 0.918) !important;
