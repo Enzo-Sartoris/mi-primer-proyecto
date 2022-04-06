@@ -56,9 +56,9 @@ body .tituloEncabezado {
 }
 body .float {
   position: fixed;
-  width: 60px;
-  height: 60px;
-  bottom: 190px;
+  width: 40px;
+  height: 40px;
+  top: 100px;
   right: 40px;
   background-color: #25d366;
   color: #FFF;
@@ -73,7 +73,7 @@ body .float:hover {
   background-color: #fff;
 }
 body .my-float {
-  margin-top: 16px;
+  margin-top: 12px;
 }
 body .menuDiario, body .menuDiario2 {
   padding: 20px;
@@ -87,9 +87,16 @@ body .menuDiario:hover, body .menuDiario2:hover {
 body .table {
   font-size: 20px;
 }
+body .carousel-caption {
+  bottom: 8rem;
+}
 body .carousel-item {
   max-height: 600px;
   background-size: 100% 100%;
+}
+body .accordion-body {
+  display: grid;
+  grid-row: 12;
 }
 body .tituloEncabezado {
   margin-bottom: 40px;
@@ -122,10 +129,6 @@ body .video {
 body .insta {
   text-decoration: none;
   color: #fff;
-}
-body .bg-dark {
-  position: absolute;
-  bottom: 0px;
 }
 body .footerMaps {
   display: flex;
@@ -173,6 +176,9 @@ body td > img {
   }
   body .table {
     font-size: 0.6rem !important;
+  }
+  body .carousel-caption {
+    bottom: 20rem;
   }
   body .img-table {
     width: 50px !important;

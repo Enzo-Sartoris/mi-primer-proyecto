@@ -66,9 +66,9 @@ body {
 
     .float {
         position: fixed;
-        width: 60px;
-        height: 60px;
-        bottom: 190px;
+        width: 40px;
+        height: 40px;
+        top: 100px;
         right: 40px;
         background-color: #25d366;
         color: #FFF;
@@ -78,6 +78,8 @@ body {
         z-index: 100;
     }
 
+    
+
     .float:hover {
         text-decoration: none;
         color: #25d366;
@@ -86,7 +88,9 @@ body {
     
 
     .my-float {
-        margin-top: 16px;
+        margin-top: 12px;
+        
+        
     }
 
     .menuDiario {
@@ -107,10 +111,20 @@ body {
     .table {
         font-size: 20px;
     }
+    .carousel-caption{
+        bottom: 8rem;
+    }
+
 
     .carousel-item {
         max-height: 600px;
         background-size: 100% 100%;
+    }
+
+
+    .accordion-body{
+        display: grid;
+        grid-row: 12;
     }
 
 
@@ -159,12 +173,7 @@ body {
     }
 
 
-    .bg-dark {
-
-        position: absolute;
-        bottom: 0px;
-    }
-
+    
     .footerMaps {
         display: flex;
         justify-content: space-evenly;
@@ -221,9 +230,13 @@ body {
             width: 80px !important;
             height: 50px !important;
         }
-        //AQUI PERRA
+        
         .table{
             font-size: 0.6rem !important;
+        }
+
+        .carousel-caption{
+            bottom: 20rem;
         }
     
         .img-table{
@@ -244,26 +257,11 @@ body {
         }
         .dia-span-2{
             line-height: 10px;
+            
         }
+
+    
     }
 
 }
 
-// style="background-color: #f6f6f8; color: #646464;
-//td > img{
-//     width: 140px !important;
-//     height: 120px !important;
-// }
-// @media screen and (max-width: 760px) {
-//     td > img{
-//         width: 100px !important;
-//         height: 80px !important;
-//     }
-// }
-// @media screen and (max-width: 615px) {
-//     td > img{
-//         width: 80px !important;
-//         height: 50px !important;
-//     }
-
-// }
