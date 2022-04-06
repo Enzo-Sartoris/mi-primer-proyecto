@@ -1,15 +1,16 @@
 header {
     margin-top: 100px;
     nav {
+        background-color: #344952;
         a {
+            margin-left: 1.5rem;
             &:hover {
-                color: rgb(241, 99, 4);
+                color: #f8dd6e;
             }
         }
         div {
             span {
-                margin-left: 50px;
-                margin-top: 8px;
+                margin-top: 1%;
                 a {
                     text-decoration: none;
                     color: #fff;
@@ -28,8 +29,9 @@ header {
         ul {
             li {
                 a {
+                    
                     &:hover {
-                        color: rgb(241, 99, 4) !important;
+                        color: #f8dd6e !important;
                         
                     }
                     &:active {
@@ -37,6 +39,13 @@ header {
                     }
                 }
             }
+        }
+    }
+    @media screen and (max-width: 766px) {
+        .nav-item > a{
+            font-size: 1.5rem;
+            font-weight: 500;
+            color: 	#344952 !important;
         }
     }
 }

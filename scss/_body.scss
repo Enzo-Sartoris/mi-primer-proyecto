@@ -2,13 +2,49 @@ body {
     margin: 0;
     padding: 0;
     background-color: $color-body;
-    color: #fff;
-    text-align: justify;
+    color: $color-letras;
+    text-align: center;
     position: relative;
-    font-size: 20px;
-    padding-bottom: 300px;
-    min-height: 100vh;
+    font-size: 1rem;
+    
+    .bg-footer{
+        background-color: 	#344952;
+        color: #FFF;
+    }
+    .text-footer{
+        font-size: 1.2rem;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+    .separator{
+        background-color: 	#344952;
+    }
 
+    .table{
+        font-size: 1.1rem !important;
+    }
+
+    .img-table{
+        width: 120px !important;
+        height: 100px !important;
+    }
+
+    .my-n4{
+        margin: 0rem 0 !important;
+    }
+    .dia-span{
+        font-weight: bolder;
+        color: #344952;
+        font-size: 2rem;
+    }
+
+    .h-responsive{
+        height: 100% !important;
+    }
+    .h-responsive-2{
+        height: 75% !important;
+    }
+    
     p::selection {
         background-color: brown;
         color: #fff;
@@ -21,35 +57,38 @@ body {
     .informacion {
         margin-top: 50px;
     }
-    
-    .tituloEncabezado{
-        text-align: center ;
-        padding-bottom: 20px;
+
+    .tituloEncabezado {
+        text-align: center;
+        text-transform: uppercase;
         
     }
 
-    .float{
-        position:fixed;
-        width:60px;
-        height:60px;
-        bottom:40px;
-        right:40px;
-        background-color:#25d366;
-        color:#FFF;
-        border-radius:50px;
-        text-align:center;
+    .float {
+        position: fixed;
+        width: 60px;
+        height: 60px;
+        bottom: 190px;
+        right: 40px;
+        background-color: #25d366;
+        color: #FFF;
+        border-radius: 50px;
+        text-align: center;
         box-shadow: 2px 2px 3px #999;
-        z-index:100;
+        z-index: 100;
     }
+
     .float:hover {
         text-decoration: none;
         color: #25d366;
-        background-color:#fff;
+        background-color: #fff;
     }
     
-    .my-float{
-        margin-top:16px;
+
+    .my-float {
+        margin-top: 16px;
     }
+
     .menuDiario {
         padding: 20px;
         height: 356px;
@@ -64,49 +103,64 @@ body {
         transform: scale(1.08);
         cursor: pointer;
     }
-    
-    .table{
+
+    .table {
         font-size: 20px;
     }
-    
-    .carousel-item{
+
+    .carousel-item {
         max-height: 600px;
         background-size: 100% 100%;
-        }
-    
-    
-    .tituloEncabezado{
+    }
+
+
+    .tituloEncabezado {
         margin-bottom: 40px;
     }
 
-    .subtitulo{
+    .subtitulo {
         margin-top: 50px;
     }
 
-    .textoContacto{
+    .table-dark{
+    color: $color-letras;
+    }
+
+    .lista-carta{
+        list-style: none;
+    }
+    
+    
+
+    .textoContacto {
         margin-bottom: 50px;
     }
 
-    .subtituloNosotros{
+    .subtituloNosotros {
         margin-top: 40px;
     }
 
-    .ejemplo{
+    .ejemplo {
         margin-top: 100px;
         display: flex;
         justify-content: center;
-        
+
     }
+
     .video {
         width: 75%;
         margin: 0 auto;
         padding: 20px 0px;
     }
-    
+
+    .insta{
+        text-decoration: none;
+        color: #fff;
+    }
 
 
     .bg-dark {
-        
+
         position: absolute;
         bottom: 0px;
     }
@@ -114,36 +168,102 @@ body {
     .footerMaps {
         display: flex;
         justify-content: space-evenly;
-        list-style-type:none;
-        $mapsFooter: (
-            instagram:rgba(242, 236, 247, 0.918),
-            contacto:rgba(242, 236, 247, 0.918),
-            ubicacion:rgba(242, 236, 247, 0.918) ,
-        ) ;
-
-        .lista-insta a{
-            text-decoration: none;
-            color: rgba(242, 236, 247, 0.918);
-        }
+        list-style-type: none;
+        $mapsFooter: (instagram:rgba(242, 236, 247, 0.918),
+                contacto:rgba(242, 236, 247, 0.918),
+                ubicacion:rgba(242, 236, 247, 0.918),
+            );
 
         
 
-        @each $i, $color in $mapsFooter {
+        @each $i,
+        $color in $mapsFooter {
             .#{$i} {
                 color: $color;
             }
         }
     }
-    
-    @mixin listaFooter {text-decoration: none; color:#fff; background-color: $color-footer;
-        
+
+    @mixin listaFooter {
+        text-decoration: none;
+        color: #fff;
+        background-color: $color-footer;
+
     }
+
     .list-group-item {
-    @include listaFooter;
+        @include listaFooter;
     }
 
 
-    @media (min-width :400px)  {
+    @media (min-width :400px) {
         display: block;
     }
+
+    td > img{
+    width: 140px !important;
+    height: 120px !important;
+    }
+    @media screen and (max-width: 765px) {
+        td > img{
+            width: 100px !important;
+            height: 80px !important;
+        }
+        .separator{
+            background-color: 	#FFF;
+            margin: 10px 0;
+            padding: 5px 0;
+
+        }
+    }
+    @media screen and (max-width: 615px) {
+        td > img{
+            width: 80px !important;
+            height: 50px !important;
+        }
+        //AQUI PERRA
+        .table{
+            font-size: 0.6rem !important;
+        }
+    
+        .img-table{
+            width: 50px !important;
+            height: 40px !important;
+        }
+    
+        .my-n4{
+            margin: -1rem 0 !important;
+        }
+        .dia-span{
+            font-weight: bolder;
+            color: #344952;
+            font-size: 0.8rem
+        }
+        .h-responsive-2{
+            height: 100% !important;
+        }
+        .dia-span-2{
+            line-height: 10px;
+        }
+    }
+
 }
+
+// style="background-color: #f6f6f8; color: #646464;
+//td > img{
+//     width: 140px !important;
+//     height: 120px !important;
+// }
+// @media screen and (max-width: 760px) {
+//     td > img{
+//         width: 100px !important;
+//         height: 80px !important;
+//     }
+// }
+// @media screen and (max-width: 615px) {
+//     td > img{
+//         width: 80px !important;
+//         height: 50px !important;
+//     }
+
+// }
