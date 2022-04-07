@@ -130,6 +130,35 @@ body .insta {
   text-decoration: none;
   color: #fff;
 }
+body .textoContacto {
+  padding-left: 8rem;
+  padding-right: 11rem;
+}
+body .form-label {
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+}
+body .form-label-consulta {
+  padding-right: 4rem;
+}
+body .consulta {
+  display: flex;
+  justify-content: center;
+}
+body .form-control {
+  display: inline-block;
+  width: 50%;
+}
+body .textoNosotros {
+  padding-left: 8rem;
+  padding-right: 11rem;
+  padding-bottom: 2rem;
+}
+body .textoNosotrosDos {
+  padding-left: 8rem;
+  padding-right: 11rem;
+  padding-bottom: 4rem;
+}
 body .footerMaps {
   display: flex;
   justify-content: space-evenly;

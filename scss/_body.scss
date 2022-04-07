@@ -173,7 +173,44 @@ body {
     }
 
 
-    
+    .textoContacto{
+        padding-left: 8rem;
+        padding-right: 11rem;
+    }
+
+    .form-label{
+        padding-right: 2rem;
+        padding-bottom: 2rem;
+        
+    }
+
+    .form-label-consulta{
+        padding-right: 4rem;
+    }
+
+    .consulta{
+        display: flex;
+        justify-content: center;
+    }
+
+    .form-control{
+        
+        display: inline-block;
+        width: 50%;
+    }
+
+    .textoNosotros{
+        padding-left: 8rem;
+        padding-right: 11rem;
+        padding-bottom: 2rem;
+    }
+
+    .textoNosotrosDos{
+        padding-left: 8rem;
+        padding-right: 11rem;
+        padding-bottom: 4rem;
+    }
+
     .footerMaps {
         display: flex;
         justify-content: space-evenly;
