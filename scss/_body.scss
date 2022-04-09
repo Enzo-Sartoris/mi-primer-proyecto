@@ -167,9 +167,15 @@ body {
         padding: 20px 0px;
     }
 
-    .insta{
-        text-decoration: none;
-        color: #fff;
+    .informacion{
+        padding-left: 8rem;
+        padding-right: 11rem;
+    }
+
+
+    .demostracion{
+        padding-left: 8rem;
+        padding-right: 11rem;
     }
 
 
@@ -209,6 +215,11 @@ body {
         padding-left: 8rem;
         padding-right: 11rem;
         padding-bottom: 4rem;
+    }
+
+    .insta{
+        text-decoration: none;
+        color: #fff;
     }
 
     .footerMaps {
@@ -259,8 +270,11 @@ body {
             background-color: 	#FFF;
             margin: 10px 0;
             padding: 5px 0;
-
         }
+
+        
+
+
     }
     @media screen and (max-width: 615px) {
         td > img{
@@ -295,6 +309,35 @@ body {
         .dia-span-2{
             line-height: 10px;
             
+        }
+
+
+        .informacion{
+            padding-left:1rem;
+            padding-right: 1rem;
+        }
+    
+    
+        .demostracion{
+            padding-left:1rem;
+            padding-right: 1rem;
+        }
+
+        .textoContacto{
+            padding-left:1rem;
+            padding-right: 1rem;
+        }
+
+
+        .textoNosotros{
+            padding-left:1rem;
+        padding-right: 1rem;
+        }
+
+        .textoNosotrosDos{
+            padding-left:1rem;
+            padding-right: 1rem;
+            padding-bottom:1rem;
         }
 
     

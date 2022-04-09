@@ -126,9 +126,13 @@ body .video {
   margin: 0 auto;
   padding: 20px 0px;
 }
-body .insta {
-  text-decoration: none;
-  color: #fff;
+body .informacion {
+  padding-left: 8rem;
+  padding-right: 11rem;
+}
+body .demostracion {
+  padding-left: 8rem;
+  padding-right: 11rem;
 }
 body .textoContacto {
   padding-left: 8rem;
@@ -158,6 +162,10 @@ body .textoNosotrosDos {
   padding-left: 8rem;
   padding-right: 11rem;
   padding-bottom: 4rem;
+}
+body .insta {
+  text-decoration: none;
+  color: #fff;
 }
 body .footerMaps {
   display: flex;
@@ -226,6 +234,27 @@ body td > img {
   }
   body .dia-span-2 {
     line-height: 10px;
+  }
+  body .informacion {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  body .demostracion {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  body .textoContacto {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  body .textoNosotros {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  body .textoNosotrosDos {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
   }
 }
 
