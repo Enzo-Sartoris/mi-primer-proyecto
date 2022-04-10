@@ -5,7 +5,7 @@ body {
   color: #646464;
   text-align: center;
   position: relative;
-  font-size: 1rem;
+  font-size: 1.7rem;
 }
 body .separator {
   background-color: #344952;
@@ -62,9 +62,6 @@ body .float:hover {
   text-decoration: none;
   color: #25d366;
   background-color: #fff;
-}
-body .my-float {
-  margin-top: 12px;
 }
 body .menuDiario, body .menuDiario2 {
   padding: 20px;
@@ -144,6 +141,27 @@ body .form-control {
   display: inline-block;
   width: 50%;
 }
+body .borderEmail {
+  width: 18rem;
+  height: 3rem;
+  border: 0.1rem solid #dadada;
+}
+body .borderEmail:focus {
+  border-radius: 0.1rem;
+  outline: 0.2rem solid #86b7fe;
+}
+body .boton {
+  background-color: #344952;
+  color: #FFF;
+  border: none;
+  padding: 0.3rem 1rem;
+  width: 7%;
+}
+body .boton:hover {
+  -webkit-box-shadow: 1px 5px 15px 3px #6B6B6B;
+  box-shadow: 1px 5px 15px 3px #6B6B6B;
+  transition: all 0.5s ease;
+}
 body .textoNosotros {
   padding-left: 8rem;
   padding-right: 11rem;
@@ -159,7 +177,7 @@ body .bg-footer {
   color: #FFF;
 }
 body .text-footer {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   text-transform: uppercase;
   letter-spacing: 2px;
   padding-left: 14rem;
@@ -193,6 +211,15 @@ body .list-group-item {
 body td > img {
   width: 140px !important;
   height: 120px !important;
+}
+@media screen and (min-width: 616px) and (max-width: 1100px) {
+  body .boton {
+    background-color: #344952;
+    color: #FFF;
+    border: none;
+    padding: 0.3rem 1rem;
+    width: 25%;
+  }
 }
 @media screen and (max-width: 765px) {
   body td > img {
@@ -256,10 +283,22 @@ body td > img {
     padding-bottom: 1rem;
   }
   body .text-footer {
-    font-size: 1.2rem;
+    font-size: 0.7rem;
     text-transform: uppercase;
     letter-spacing: 2px;
     padding-left: 1rem;
+  }
+  body .boton {
+    background-color: #344952;
+    color: #FFF;
+    border: none;
+    padding: 0.3rem 1rem;
+    width: 25%;
+  }
+  body .borderEmail {
+    width: 40%;
+    height: 3rem;
+    border: 0.1rem solid #dadada;
   }
 }
 
