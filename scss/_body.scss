@@ -7,15 +7,7 @@ body {
     position: relative;
     font-size: 1rem;
     
-    .bg-footer{
-        background-color: 	#344952;
-        color: #FFF;
-    }
-    .text-footer{
-        font-size: 1.2rem;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-    }
+    
     .separator{
         background-color: 	#344952;
     }
@@ -217,14 +209,24 @@ body {
         padding-bottom: 4rem;
     }
 
+    .bg-footer{
+        background-color:#344952;
+        color: #FFF;
+        
+    }
+    .text-footer{
+        font-size: 1.2rem;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        padding-left: 14rem;
+    }
+
     .insta{
         text-decoration: none;
         color: #fff;
     }
 
     .footerMaps {
-        display: flex;
-        justify-content: space-evenly;
         list-style-type: none;
         $mapsFooter: (instagram:rgba(242, 236, 247, 0.918),
                 contacto:rgba(242, 236, 247, 0.918),
@@ -338,6 +340,12 @@ body {
             padding-left:1rem;
             padding-right: 1rem;
             padding-bottom:1rem;
+        }
+        .text-footer{
+            font-size: 1.2rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            padding-left: 1rem;
         }
 
     

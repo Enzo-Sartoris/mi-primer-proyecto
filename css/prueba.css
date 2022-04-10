@@ -7,15 +7,6 @@ body {
   position: relative;
   font-size: 1rem;
 }
-body .bg-footer {
-  background-color: #344952;
-  color: #FFF;
-}
-body .text-footer {
-  font-size: 1.2rem;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-}
 body .separator {
   background-color: #344952;
 }
@@ -163,13 +154,21 @@ body .textoNosotrosDos {
   padding-right: 11rem;
   padding-bottom: 4rem;
 }
+body .bg-footer {
+  background-color: #344952;
+  color: #FFF;
+}
+body .text-footer {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding-left: 14rem;
+}
 body .insta {
   text-decoration: none;
   color: #fff;
 }
 body .footerMaps {
-  display: flex;
-  justify-content: space-evenly;
   list-style-type: none;
 }
 body .footerMaps .instagram {
@@ -255,6 +254,12 @@ body td > img {
     padding-left: 1rem;
     padding-right: 1rem;
     padding-bottom: 1rem;
+  }
+  body .text-footer {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-left: 1rem;
   }
 }
 
